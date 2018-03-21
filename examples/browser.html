@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Screen Rotating Board</title>
+  <style>
+    body {
+      margin: 0px;
+      overflow: hidden;
+    }
+  </style>
+  <script>
+  var ScreenRotatingBoardConfig = {
+    screens: [
+      {
+        type: 'youtube',
+        videoId: 'M7lc1UVf-VE'
+      },
+      {
+        type: 'image',
+        timeOut: 15000,
+        src: 'http://lorempixel.com/400/200/sports'
+      },
+      {
+        type: 'html',
+        timeOut: 15000,
+        src: 'http://www.fontanus.hu'
+      },
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="content">Please wait...</div>
+</body>
+<script src="../dist/screenrotatingboard.js"></script>
+<script>
+  const MyBoard = new ScreenRotatingBoard.ScreenRotatingBoard('content', ScreenRotatingBoardConfig);
+  MyBoard.start()
+</script>
+</html>
