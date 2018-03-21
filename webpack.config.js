@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+const package = require('./package.json')
 
 var config = {
   module: {
@@ -23,30 +23,10 @@ var config = {
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     }),
     new HtmlWebpackPlugin({
-      title: 'Fontanus Screens',
+      title: package.description,
       appMountId: 'content',
       template: __dirname + '/src/index.html',
-      window: {
-        ScreenRotatingBoardConfig: {
-          wrapper: 'content',
-          screens: [
-            {
-              type: 'image',
-              timeOut: 15000,
-              src: 'https://picsum.photos/200/300/?random'
-            },
-            {
-              type: 'youtube',
-              videoId: 'RevmZ_8vmq4'
-            },
-            {
-              type: 'html',
-              src: 'http://www.fontanus.hu',
-              timeOut: 15000
-            }
-          ]
-        }
-      }
+      window: package.webpack.config
     })
   ]
 };

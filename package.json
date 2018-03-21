@@ -48,5 +48,28 @@
     "rimraf": "^2.5.2",
     "sinon": "^4.4.8",
     "webpack": "^1.12.14"
+  },
+  "webpack": {
+    "config": {
+      "ScreenRotatingBoardConfig": {
+        "wrapper": "content",
+        "screens": [
+          {
+            "type": "image",
+            "timeOut": 15000,
+            "src": "https://picsum.photos/200/300/?random"
+          },
+          {
+            "type": "youtube",
+            "videoId": "xt0F1Xbd73k"
+          },
+          {
+            "type": "html",
+            "src": "http://www.fontanus.hu",
+            "timeOut": 15000
+          }
+        ]
+      }
+    }
   }
 }
