@@ -6,10 +6,13 @@ A board contains one or more screens that are rotated either after a given time,
 
 # Plans for screens
 
-* Static HTML to be rotated on timeout
-* Youtube to be rotated on video end
+* Static HTML to be rotated on timeout - done
+* Simple image to be rotated on timeout - done
+* Youtube to be rotated on video end - done
 * Prezi to be rotated on prezentation end
-* Google Slide to be rotate on end
+* Google Slide to be rotated on end - done as html
+
+Example: [https://screen.fontanus.hu](https://screen.fontanus.hu)
 
 # License
 

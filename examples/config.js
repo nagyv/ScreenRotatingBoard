@@ -2,8 +2,17 @@ var ScreenRotatingBoardConfig = {
   screens: [
     {
       type: 'image',
-      timeOut: 150000,
-      src: 'http://lorempixel.com/400/200/sports/'
+      timeOut: 15000,
+      src: 'https://picsum.photos/200/300/?random'
+    },
+    {
+      type: 'youtube',
+      videoId: 'RevmZ_8vmq4'
+    },
+    {
+      type: 'html',
+      src: 'http://www.fontanus.hu',
+      timeOut: 15000
     }
   ]
 }

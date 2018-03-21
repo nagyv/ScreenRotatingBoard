@@ -13,6 +13,12 @@ class BaseWidgetHandler extends React.Component {
     super(props)
   }
 
+  componentDidMount() {
+    if (this.props.onRender) {
+      this.props.onRender()
+    }
+  }
+
   render() {
     return "BaseWidgetHandler's render should be overwritten"
   }
@@ -72,11 +78,23 @@ class ScreenRotatingBoard {
     this._activeWidgetIdx = null
 
     this.next = this.next.bind(this)
+    this.setupTimer = this.setupTimer.bind(this)
+  }
+
+  setupTimer() {
+    const currentWidgetConfig = this._config.screens[this._activeWidgetIdx]
+    if (this._timer) {
+      clearTimeout (this._timer)
+    }
+    if (currentWidgetConfig.timeOut) {
+      this._timer = setTimeout(this.next, currentWidgetConfig.timeOut)
+    }
   }
 
   _renderWidget() {
     const currentWidgetConfig = {
       onEnd: this.next,
+      onRender: this.setupTimer,
       ...this._config.screens[this._activeWidgetIdx]
     }
     if (!currentWidgetConfig.type) {
@@ -89,12 +107,6 @@ class ScreenRotatingBoard {
       React.createElement(widget, currentWidgetConfig),
       this._contentElement
     );
-    if (this._timer) {
-      clearTimeout (this._timer)
-    }
-    if (currentWidgetConfig.timeOut) {
-      this._timer = setTimeout(this.next, currentWidgetConfig.timeOut)
-    }
   }
 
   start() {
@@ -113,4 +125,4 @@ class ScreenRotatingBoard {
   }
 }
 
-export {ScreenRotatingBoard}
+export {ScreenRotatingBoard, ImageHandler, HTMLHandler, YoutubeHandler}
