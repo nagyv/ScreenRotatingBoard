@@ -12,7 +12,7 @@ A board contains one or more screens that are rotated either after a given time,
 * Prezi to be rotated on prezentation end
 * Google Slide to be rotated on end - done as html
 
-Example: [https://screen.fontanus.hu](https://screen.fontanus.hu)
+Example: [http://www.fontanus.hu/screens](http://www.fontanus.hu/screens)
 
 # License
 
