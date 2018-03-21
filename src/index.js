@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import YouTube from 'react-youtube';
+import Img from 'react-image';
 
 const Dimensions = {
   width: window.innerWidth,
@@ -19,7 +20,7 @@ class BaseWidgetHandler extends React.Component {
 
 class ImageHandler extends BaseWidgetHandler {
   render() {
-    return <img src={this.props.src} />
+    return <Img src={this.props.src} width={Dimensions.width} height={Dimensions.height} />
   }
 }
 
@@ -78,6 +79,11 @@ class ScreenRotatingBoard {
       onEnd: this.next,
       ...this._config.screens[this._activeWidgetIdx]
     }
+    if (!currentWidgetConfig.type) {
+      console.error("Can not find widget for screen", this._activeWidgetIdx)
+      return
+    }
+
     const widget = ScreenRotatingBoard.widgets[currentWidgetConfig.type]
     ReactDOM.render(
       React.createElement(widget, currentWidgetConfig),
@@ -98,7 +104,7 @@ class ScreenRotatingBoard {
 
   next() {
     const nextIdx = this._activeWidgetIdx + 1
-    if (this._config.screens.length < nextIdx) {
+    if (this._config.screens.length <= nextIdx) {
       this._activeWidgetIdx = 0
     } else {
       this._activeWidgetIdx += 1
