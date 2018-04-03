@@ -4,7 +4,7 @@
   "description": "Screen Rotating Board",
   "private": true,
   "scripts": {
-    "watch": "webpack --watch",
+    "start": "webpack --watch",
     "build": "webpack",
     "build:min": "cross-env NODE_ENV=production webpack",
     "clean": "rimraf lib dist coverage",
@@ -55,18 +55,13 @@
         "wrapper": "content",
         "screens": [
           {
-            "type": "image",
-            "timeOut": 15000,
-            "src": "https://picsum.photos/200/300/?random"
-          },
-          {
             "type": "youtube",
-            "videoId": "xt0F1Xbd73k"
+            "videoId": "Pb3bLFa0K80"
           },
           {
-            "type": "html",
-            "src": "http://www.fontanus.hu",
-            "timeOut": 15000
+            "type": "image",
+            "src": "http://waterskyball.hu/wp-content/uploads/sites/21/2018/04/wsb_nevezes_felhivas_A5.jpg",
+            "timeOut": 30000
           }
         ]
       }
