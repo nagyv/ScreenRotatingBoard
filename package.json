@@ -56,12 +56,46 @@
         "screens": [
           {
             "type": "youtube",
+            "videoId": "vt_Zy8KtzKE"
+          },
+          {
+            "type": "youtube",
             "videoId": "Pb3bLFa0K80"
           },
           {
             "type": "image",
             "src": "http://waterskyball.hu/wp-content/uploads/sites/21/2018/04/nevezes_16_9.jpg",
             "timeOut": 30000
+          },
+          {
+            "type": "youtube",
+            "videoId": "ZbhHpQfAaOg"
+          },
+          {
+            "type": "youtube",
+            "videoId": "1PHmIp5LkSc"
+          },
+          {
+            "type": "image",
+            "src": "http://www.fontanus.hu/wp-content/uploads/2018/04/fontanus_akademia.jpg",
+            "timeOut": 45000
+          },
+          {
+            "type": "youtube",
+            "videoId": "XtjhZqhSkm4"
+          },
+          {
+            "type": "youtube",
+            "videoId": "MSjtunc4M88"
+          },
+          {
+            "type": "image",
+            "src": "http://www.fontanus.hu/wp-content/uploads/2018/04/kepzesek_tavasz_16_9.jpg",
+            "timeOut": 30000
+          },
+          {
+            "type": "youtube",
+            "videoId": "LWiYQzN3k2c"
           }
         ]
       }
