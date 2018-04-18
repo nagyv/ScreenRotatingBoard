@@ -10,7 +10,7 @@
           {
             "type": "image",
             "src": "http://waterskyball.hu/wp-content/uploads/sites/21/2018/04/nevezes_16_9.jpg",
-            "timeOut": 30000
+            "timeOut": 30
           },
           {
             "type": "youtube",
@@ -23,8 +23,7 @@
           {
             "type": "image",
             "src": "http://www.fontanus.hu/wp-content/uploads/2018/04/fontanus_akademia.jpg",
-            "timeOut": 45000
-          },
+            "timeOut": 45          },
           {
             "type": "youtube",
             "videoId": "XtjhZqhSkm4"
@@ -36,7 +35,7 @@
           {
             "type": "image",
             "src": "http://www.fontanus.hu/wp-content/uploads/2018/04/kepzesek_tavasz_16_9.jpg",
-            "timeOut": 30000
+            "timeOut": 30
           },
           {
             "type": "youtube",
