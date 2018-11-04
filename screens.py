@@ -81,6 +81,8 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 
 	basePath = user_data_dir(appname, appauthor)
+	if not os.path.exists(basePath):
+		os.makedirs(basePath)
 	print("Data directory is {}".format(basePath))
 
 	main(basePath, args.config)
