@@ -1,0 +1,26 @@
+[
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/fontanus.jpg",
+    "timeOut": 45000
+  },
+  {
+    "type": "youtube",
+    "videoId": "ZbhHpQfAaOg"
+  },
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_barka_niki.jpg",
+    "timeOut": 45000
+  },
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_hacker_peter.jpg",
+    "timeOut": 45000
+  },
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/wsb.jpg",
+    "timeOut": 45000
+  }
+]
