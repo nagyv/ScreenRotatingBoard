@@ -4,15 +4,28 @@ There are quite a few dashboards for serious business data, but neither of them 
 
 A board contains one or more screens that are rotated either after a given time, or after an event happens (e.g. video ends).
 
+There are currently two versions of this repo. This (the `master` branch) can be run on a Raspberry, while the `web` branch can be run in a browser. As video rendering on Raspberry is a bit tricky, running videos from a browser is not recommended.
+
 # Plans for screens
 
-* Static HTML to be rotated on timeout - done
 * Simple image to be rotated on timeout - done
 * Youtube to be rotated on video end - done
+* Static HTML to be rotated on timeout
 * Prezi to be rotated on prezentation end
-* Google Slide to be rotated on end - done as html
+* Google Slide to be rotated on end
 
-Example: [http://www.fontanus.hu/screens](http://www.fontanus.hu/screens)
+# Installations
+
+    apt-get install feh omxplayer youtube-dl
+    pip install -r requirements.txt
+
+# Usage
+
+You can get usage instructions by running `screens.py` without any arguments.
+
+# Configuration
+
+Check out the [config.json](https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/config.json) in this repo.
 
 # License
 

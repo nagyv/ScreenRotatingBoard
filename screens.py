@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 '''
 Screens.py uses youtube-dl to download videos, omxplayer to play them, and feh to show images. These should be preinstalled.
-
-There is no requirements.txt file attached, but you might need to install `appdirs` too from pypi.
 '''
 import argparse
 import hashlib
