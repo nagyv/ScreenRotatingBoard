@@ -23,6 +23,10 @@
     "timeOut": 45
   },
   {
+    "type": "youtube",
+    "videoId": "lLEdwW1qXwg"
+  },
+  {
     "type": "image",
     "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/wsb.jpg",
     "timeOut": 45
