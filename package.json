@@ -11,6 +11,12 @@
     "pre-commit": "npm run build && git add docs/",
     "pre-push": "npm test"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pre-commit",
+      "pre-push": "npm run pre-push"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/nagyv/screenrotatingboard.git"
