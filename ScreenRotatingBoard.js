@@ -52,7 +52,8 @@ class YoutubeHandler extends BaseWidgetHandler {
       height: Dimensions.height,
       width: Dimensions.width,
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1
+        autoplay: 1,
+        mute : 1
       }
     };
 
