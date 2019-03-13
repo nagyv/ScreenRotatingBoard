@@ -1,45 +1,48 @@
-[
-  {
-    "type": "youtube",
-    "videoId": "_x80o6orp2U"
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/fontanus.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/miniakademia_HD.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "youtube",
-    "videoId": "ZbhHpQfAaOg"
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_barka_niki.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_logo.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_hacker_peter.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_HD.jpg",
-    "timeOut": 45
-  },
-  {
-    "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/wsb.jpg",
-    "timeOut": 45
-  }
-]
+{
+  "wrapper": "content",
+  "screens": [
+    {
+      "type": "youtube",
+      "videoId": "_x80o6orp2U"
+    },
+    {
+      "type": "image",
+      "src": "/assets/fontanus.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "image",
+      "src": "/assets/miniakademia_HD.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "youtube",
+      "videoId": "ZbhHpQfAaOg"
+    },
+    {
+      "type": "image",
+      "src": "/assets/b2p2_barka_niki.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "image",
+      "src": "/assets/b2p2_logo.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "image",
+      "src": "/assets/b2p2_hacker_peter.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "image",
+      "src": "/assets/b2p2_HD.jpg",
+      "timeOut": 45
+    },
+    {
+      "type": "image",
+      "src": "/assets/wsb.jpg",
+      "timeOut": 45
+    }
+  ]  
+}

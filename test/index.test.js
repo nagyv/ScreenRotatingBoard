@@ -1,7 +1,7 @@
 import 'jsdom-global/register'
 import { expect } from 'chai';
 import sinon from 'sinon';
-import { ScreenRotatingBoard, ImageHandler, HTMLHandler, YoutubeHandler } from '../src/ScreenRotatingBoard';
+import { ScreenRotatingBoard, ImageHandler, HTMLHandler, YoutubeHandler } from '../ScreenRotatingBoard';
 
 describe('ScreenRotatingBoard', () => {
   let oldDocument
