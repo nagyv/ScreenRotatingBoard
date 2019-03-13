@@ -89,4 +89,4 @@ module.exports={wrapper:"content",screens:[{type:"youtube",videoId:"_x80o6orp2U"
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("./ScreenRotatingBoard"),r=t(require("./config.json"));function t(e){return e&&e.__esModule?e:{default:e}}var a=a||new e.ScreenRotatingBoard(r.default.wrapper,r.default);a.start();
 },{"./ScreenRotatingBoard":"T/Gt","./config.json":"BrLT"}]},{},["Focm"], null)
-//# sourceMappingURL=/ScreenRotatingBoard.579fd119.js.map
+//# sourceMappingURL=/ScreenRotatingBoard/ScreenRotatingBoard.579fd119.js.map
