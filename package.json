@@ -8,7 +8,7 @@
     "build": "parcel build index.html assets/* -d docs --public-url /ScreenRotatingBoard ",
     "test:watch": "npm test -- --watch",
     "test": "mocha --require babel-core/register --recursive",
-    "pre-commit": "npm run build && git add docs/",
+    "pre-commit": "npm test && npm run build && git add docs/",
     "pre-push": "npm test"
   },
   "husky": {

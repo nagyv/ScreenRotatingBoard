@@ -8,12 +8,12 @@
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/fontanus.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/miniakademia_HD.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "youtube",
@@ -22,27 +22,27 @@
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/b2p2_barka_niki.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/b2p2_logo.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/b2p2_hacker_peter.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/b2p2_HD.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     },
     {
       "type": "image",
       "src": "/ScreenRotatingBoard/assets/wsb.jpg",
-      "timeOut": 45
+      "timeOut": 45000
     }
   ]  
 }
