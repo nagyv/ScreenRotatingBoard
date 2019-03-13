@@ -19,12 +19,23 @@
   },
   {
     "type": "image",
-    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_HD.jpg",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_barka_niki.jpg",
     "timeOut": 45
   },
   {
-    "type": "youtube",
-    "videoId": "lLEdwW1qXwg"
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_logo.jpg",
+    "timeOut": 45
+  },
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_hacker_peter.jpg",
+    "timeOut": 45
+  },
+  {
+    "type": "image",
+    "src": "https://raw.githubusercontent.com/nagyv/ScreenRotatingBoard/master/assets/b2p2_HD.jpg",
+    "timeOut": 45
   },
   {
     "type": "image",
